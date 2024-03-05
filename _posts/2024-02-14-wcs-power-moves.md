@@ -4,7 +4,7 @@ title: Hitting the Music in West Coast Swing
 subtitle: The Theory Behind Nailing Every Phrase Change
 thumbnail-img: /assets/blog_posts/bp.wcs_power_moves/cover_image.png
 share-img: /assets/blog_posts/bp.wcs_power_moves/cover_image.png
-tags: [dancer, west coast swing, ]
+tags: [dancer, west coast swing, personal]
 comments: true
 author: Corrado R. Mazzarelli
 ---
@@ -91,7 +91,7 @@ Certain songs are exceptions to this rule. For instance, 12 bar blues songs do n
 
 # Figure Compendium
 
-The following is a list of “power moves” that you can use to hit the phrase change. The direction in brackets indicates from the lead’s perspective which way the audience should be when beginning the figure. 
+The following is a list of “power moves” that you can use to hit the phrase change. The direction in brackets indicates which way the audience should be when beginning the figure from the lead’s perspective.
 
 ## 1 Count
 
@@ -100,7 +100,7 @@ The following is a list of “power moves” that you can use to hit the phrase 
 ## 3 Count
 
 - Rainbow [Right]
-- Walk to Side [Both]
+- Walk to Side (What is this Called?) [Both]
 - [Reverse Monkey Bars](https://www.youtube.com/watch?v=d0-BRWinWMU) [Right]
 - Handshake Hold Side Dip [Right]
 - Right Side Pass Hip Catch [Right]
@@ -120,6 +120,7 @@ The following is a list of “power moves” that you can use to hit the phrase 
 ## 7 Count
 
 - Whip with Inside Turn to a Duck [Both]
+- Left Side Pass with Triple Inside Turn [Left]
 
 ## 9 Count
 
