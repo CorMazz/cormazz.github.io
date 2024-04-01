@@ -121,6 +121,8 @@ The following is a list of “power moves” that you can use to hit the phrase 
 
 - Whip with Inside Turn to a Duck [Both]
 - Left Side Pass with Triple Inside Turn [Left]
+- [Archer Whip to Inside Duck Turn into Side Dip/Ride](https://youtu.be/8e83By6DE_A?si=Aiw_zOKdxcEXusaP&t=42) [Left/Both]
+- Long Barrel Roll with Syncopation [Both]
 
 ## 9 Count
 
