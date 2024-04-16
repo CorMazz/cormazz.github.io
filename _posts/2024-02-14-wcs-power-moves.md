@@ -25,7 +25,7 @@ If you're dancing to the music, why are you counting to your feet?"
 ## Who Should Count the Music?
 
 Short answer? Everyone.
-When you first started learning WCS, you probably learned to count as you stepped your feet. If you are a lead, you started with one on your left foot (regardless of if it was actually one in the music), and then continued counting until you got to six, eight, or however many beats your figure took. If no one told you otherwise, you likely still count your dancing to your feet. However, think about what you are dancing to. You are not dancing to yourself. You are not dancing to your partner. You yourself, are dancing with your partner, to the music. Thus, it follows that if you want to dance to the music, you must count to the music, not to your feet.
+When you first started learning WCS, you probably learned to count as you stepped your feet. If you are a lead, you started with one on your left foot (regardless of if it was actually one in the music), and then continued counting until you got to six, eight, or however many beats your figure took. If no one told you otherwise, you likely still count your dancing to your feet. However, think about what you are dancing to. You are not dancing to yourself. You are not dancing to your partner. You, are dancing with your partner, to the music. Thus, it follows that if you want to dance to the music, you must count to the music, not to your feet.
 
 ## Why Count the Music?
 
@@ -35,20 +35,6 @@ Counting the music will enable you to hit the significant musical moments and ma
 ## Dance Music Theory
 
 WCS music is primarily created using “phrases” that are 4 measures long. These are dancer measures, which are twice as long as a music measure; A dancer measure has 8 beats, whereas a musician would say a measure has 4 beats. In 4/4 time, that would be 4*8=32 beats per phrase. Right at the end of one phrase and the start of another (from beat 32 to 33), something important happens in the music. Generally, here is where the music changes from loud to soft, or soft to loud, or the bass drops, or one of a plethora of other stylistic attributes. There are very few things more satisfying in WCS than 'hitting' one of those moments when the music changes with a dramatic figure, such as a dip.
-
-In addition to understanding the structure of phrases in WCS music, it's crucial to explore how these phrases contribute to the overall musical narrative, particularly regarding the resolution to the tonic.
-
-### Resolution to the Tonic
-
-In music theory, the tonic is the central pitch or chord around which a musical composition revolves. It provides a sense of stability and closure, often serving as the final destination or resolution point in a piece of music. The resolution to the tonic is a pivotal moment in music, signaling the conclusion of a musical phrase or section and providing a sense of fulfillment or resolution to the listener.
-
-### Musical Tension and Release
-
-Throughout a WCS song, there is a continuous interplay between musical tension and release. Tension builds as the music progresses, often through harmonic or rhythmic means, creating a sense of anticipation or excitement. This tension reaches its peak just before the resolution to the tonic, heightening the emotional impact of the music and setting the stage for a satisfying resolution.
-
-### Application in Dance
-
-For WCS dancers, understanding the resolution to the tonic is essential for interpreting the musical dynamics and choreographing movements that align with the music's emotional arc. By recognizing the moments of tension and release in the music, dancers can anticipate the resolution to the tonic and use it as an opportunity to synchronize their movements with the music's climax.
 
 ## What is Counting the Music?
 
@@ -75,10 +61,10 @@ When the phrase change comes, you want to hit what is known as the major 1, whic
 
 ## How to Hit the Phrase
 
-To hit the phrase you want the sum of the beat in the 4th measure that you start the figure, and the power move’s count, to be 10. Meaning, if we are starting a figure on the 3rd beat of the 4th measure, denoted (4, 3), then our figure has to be a 7 count figure from the list above, because 3 and 7 add to 10. Similarly, if you are about to begin a figure on (4, 5), you need to select a 5 count figure from the compendium, since 5 + 5 = 10. 
-If you just think about what power move you’re going to use at the last second, then you limit yourself and you cannot match the power move to the change in the music. You can actually plan ahead such that you line up the desired power move. 
+To hit the phrase you want the sum of the beat in the 4th measure that you start the figure, and the power move’s count, to be 10. Meaning, if we are starting a figure on the 3rd beat of the 4th measure, denoted (4, 3), then our figure has to be a 7 count figure from the list below, because 3 and 7 add to 10. Similarly, if you are about to begin a figure on (4, 5), you need to select a 5 count figure from the compendium, since 5 + 5 = 10. 
+If you just think about what power move you’re going to use at the last second, then you limit yourself and you cannot match the power move to the change in the music. You can actually plan ahead such that you line up the desired power move. For instance, if the phrase change starts a soft, lyrical hit, then a ride would be an ideal choice of power move, whereas if the phrase change was when the beat dropped, a dip would be ideal. 
 
-Ideally, if you had the processing power, you could plan all of your figures such that you end up at the phrase change with little effort. However, to save some effort, we’re going to start thinking about the phrase change once we reach beat 1 of measure 3, denoted as (3, 1). Once you reach (3, 1), proceed to your next natural anchor and take note of when you will begin the next pattern. For instance, say you finish your anchor on (3, 2), meaning you will start your next pattern on (3, 3). If you do a 6-count pattern, that will bring you to (4, 1). Since music is counted in 8’s, a 6-count pattern will always “move you back” two beats, as shown in the previous example where a six count figure took us from (3, 3) to (4, 1). An 8-count figure, started on (3, 3), would lead to the next figure beginning on (4, 3). Thus, by strategically choosing between 6, 8, or other patterns, you can place yourself on the right beat in the 4th measure to hit your power move of choice.
+Ideally, if you had the processing power, you could plan all of your figures such that you end up at the phrase change with little effort. However, to save some effort, we’re going to start thinking about the phrase change once we reach beat 1 of measure 3, denoted as (3, 1). Once you reach (3, 1), proceed to your next natural anchor and take note of when you will begin the next pattern. For instance, say you finish your anchor on (3, 2), meaning you will start your next pattern on (3, 3). If you do a 6-count pattern, that will bring you to (4, 1). Since music is counted in 8’s, a 6-count pattern will always “move you back” two beats, as shown in the previous example where a six count figure took us from (3, **3**) to (4, **1**). An 8-count figure, started on (3, 3), would lead to the next figure beginning on (4, 3). Thus, by strategically choosing between 6, 8, or other patterns, you can place yourself on the right beat in the 4th measure to hit your power move of choice.
 
 ### Example
 
@@ -87,7 +73,7 @@ Thus, starting from (3, 7), if I do a sugar-push I’ll end up on (4, 5), and fr
 
 ## Musical Exceptions
 
-Certain songs are exceptions to this rule. For instance, 12 bar blues songs do not follow the 4 phrase count pattern. They would instead hit on the 1 after 6 measures. Other songs simply modify this pattern. For instance, the song [_Move Me_ by Liyr](https://www.youtube.com/watch?v=mSrw5KTwvrA) delays the hit to the 2 after the phrase change in the chorus. You and your follow have to be aware of oddities such as this and adapt to hit them anyways. 
+Certain songs are exceptions to this rule. For instance, 12 bar blues songs do not follow the 4 phrase count pattern. They would instead hit on the 1 after 6 measures (since 12 musician bars are 6 dancer measures). Other songs simply modify this pattern. For instance, the song [_Move Me_ by Liyr](https://www.youtube.com/watch?v=mSrw5KTwvrA) delays the hit to the 2 after the phrase change in the chorus. You and your follow have to be aware of oddities such as this and adapt to hit them anyways. 
 
 # Figure Compendium
 
