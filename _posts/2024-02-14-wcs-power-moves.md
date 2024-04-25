@@ -75,6 +75,10 @@ Thus, starting from (3, 7), if I do a sugar-push I’ll end up on (4, 5), and fr
 
 Certain songs are exceptions to this rule. For instance, 12 bar blues songs do not follow the 4 phrase count pattern. They would instead hit on the 1 after 6 measures (since 12 musician bars are 6 dancer measures). Other songs simply modify this pattern. For instance, the song [_Move Me_ by Liyr](https://www.youtube.com/watch?v=mSrw5KTwvrA) delays the hit to the 2 after the phrase change in the chorus. You and your follow have to be aware of oddities such as this and adapt to hit them anyways. 
 
+## Accenting the Music
+
+To really make a dance shine, you can't just hit the major ones, you have to hit different accents within the music. A good example of this is Keerigan in [this video](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=27). If you notice, he plays with the pauses and accents in the music and aligns his dance to them. [The rainbow](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=37) at 37 seconds is a particularly good example of this. He did this by knowing that the music had a minor accent with the word "ahh" on the "and" before 3 and 7. Thus, in this example, he started his rainbow on 1 and hit the 3. The math doesn't play as nicely when not hitting the major one, but with practice this is achievable.  
+
 # Figure Compendium
 
 The following is a list of “power moves” that you can use to hit the phrase change. The direction in brackets indicates which way the audience should be when beginning the figure from the lead’s perspective.
@@ -85,7 +89,7 @@ The following is a list of “power moves” that you can use to hit the phrase 
 
 ## 3 Count
 
-- Rainbow [Right]
+- [Rainbow](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=37) [Right]
 - Barrel Roll [Both]
 - [Reverse Monkey Bars](https://www.youtube.com/watch?v=d0-BRWinWMU) [Right]
 - Handshake Hold Side Dip [Right]
@@ -94,10 +98,11 @@ The following is a list of “power moves” that you can use to hit the phrase 
 
 ## 5 Count
 
-- Left Side Pass with Inside Turn to a Dip [Left]
+- [Left Side Pass with Inside Turn to a Dip](https://youtu.be/m0i5zYBYrgQ) [Left]
 - [Left Side Pass with a Wrap to Hip Catch](https://www.youtube.com/watch?v=xKIxj10nX7w) [Right]
+- [Left Side Pass with Inside Turn Hammerlock and Duck to Dip](https://youtu.be/_RYd6Seg8Ic?si=gaDK7oscvl2BbBl4&t=46) [Left]
 - Underarm Pass to Duck [Both]
-- One Footed Spin [Right]
+- [One Footed Spin (Starts on One)](https://youtu.be/_RYd6Seg8Ic?si=zwDN48HGbgLh5EeM&t=30) [Right]
 - First 4 Counts of a Whip into a Ride on 5 [Both]
 - Right Side Pass with Inside Duck Turn into Side Dip [Right]
 - Right Side Pass with Inside Duck Turn into Ride [Both]
@@ -108,9 +113,11 @@ The following is a list of “power moves” that you can use to hit the phrase 
 - Whip with Inside Turn to a Duck [Both]
 - Left Side Pass with Triple Inside Turn [Left]
 - [Archer Whip to Inside Duck Turn into Side Dip/Ride](https://youtu.be/8e83By6DE_A?si=Aiw_zOKdxcEXusaP&t=42) [Left/Both]
+- [Archer Whip to Lead and Follow Turn then Face Audience](https://youtu.be/_RYd6Seg8Ic?si=E-Ogx22vCtRsnHYX&t=73) [Left]
 - Long Barrel Roll with Syncopation [Both]
 
 ## 9 Count
-
+- [One Footed Spin (Follow Ends It on One)](https://youtu.be/tNM-vsw3z9s?si=fjlUr63MPCiNBNo6&t=73) [Right]
+- [Baseball Throw to Dip](https://youtu.be/m0i5zYBYrgQ?si=C524KoUKpV3GUwS3&t=56) [Right] [Tutorial](https://www.youtube.com/watch?v=xr2KOCAsdGo)
 - Whip with Triple Outside Turn [Both]
 
