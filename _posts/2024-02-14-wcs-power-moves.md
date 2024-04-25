@@ -89,35 +89,35 @@ The following is a list of “power moves” that you can use to hit the phrase 
 
 ## 3 Count
 
-- [Rainbow](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=37) [Right]
-- Barrel Roll [Both]
-- [Reverse Monkey Bars](https://www.youtube.com/watch?v=d0-BRWinWMU) [Right]
-- Handshake Hold Side Dip [Right]
-- Right Side Pass Hip Catch [Right]
-- [Slingshot](https://www.youtube.com/watch?v=0a2z7VlTKGs) [Left]
+1. [Rainbow](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=37) [Right]
+2. Barrel Roll [Both]
+3. [Reverse Monkey Bars](https://www.youtube.com/watch?v=d0-BRWinWMU) [Right]
+4. Handshake Hold Side Dip [Right]
+5. Right Side Pass Hip Catch [Right]
+6. [Slingshot](https://www.youtube.com/watch?v=0a2z7VlTKGs) [Left]
 
 ## 5 Count
 
-- [Left Side Pass with Inside Turn to a Dip](https://youtu.be/m0i5zYBYrgQ) [Left]
-- [Left Side Pass with a Wrap to Hip Catch](https://www.youtube.com/watch?v=xKIxj10nX7w) [Right]
-- [Left Side Pass with Inside Turn Hammerlock and Duck to Dip](https://youtu.be/_RYd6Seg8Ic?si=gaDK7oscvl2BbBl4&t=46) [Left]
-- Underarm Pass to Duck [Both]
-- [One Footed Spin (Starts on One)](https://youtu.be/_RYd6Seg8Ic?si=zwDN48HGbgLh5EeM&t=30) [Right]
-- First 4 Counts of a Whip into a Ride on 5 [Both]
-- Right Side Pass with Inside Duck Turn into Side Dip [Right]
-- Right Side Pass with Inside Duck Turn into Ride [Both]
-- Sugar Tuck with Multiple Back and Forths [Both]
+1. [Left Side Pass with Inside Turn to a Dip](https://youtu.be/m0i5zYBYrgQ) [Left]
+2. [Left Side Pass with a Wrap to Hip Catch](https://www.youtube.com/watch?v=xKIxj10nX7w) [Right]
+3. [Left Side Pass with Inside Turn Hammerlock and Duck to Dip](https://youtu.be/_RYd6Seg8Ic?si=gaDK7oscvl2BbBl4&t=46) [Left]
+4. Underarm Pass to Duck [Both]
+5. [One Footed Spin (Starts on One)](https://youtu.be/_RYd6Seg8Ic?si=zwDN48HGbgLh5EeM&t=30) [Right]
+6. First 4 Counts of a Whip into a Ride on 5 [Both]
+7. Right Side Pass with Inside Duck Turn into Side Dip [Right]
+8. Right Side Pass with Inside Duck Turn into Ride [Both]
+9. Sugar Tuck with Multiple Back and Forths [Both]
 
 ## 7 Count
 
-- Whip with Inside Turn to a Duck [Both]
-- Left Side Pass with Triple Inside Turn [Left]
-- [Archer Whip to Inside Duck Turn into Side Dip/Ride](https://youtu.be/8e83By6DE_A?si=Aiw_zOKdxcEXusaP&t=42) [Left/Both]
-- [Archer Whip to Lead and Follow Turn then Face Audience](https://youtu.be/_RYd6Seg8Ic?si=E-Ogx22vCtRsnHYX&t=73) [Left]
-- Long Barrel Roll with Syncopation [Both]
+1. Whip with Inside Turn to a Duck [Both]
+2. Left Side Pass with Triple Inside Turn [Left]
+3. [Archer Whip to Inside Duck Turn into Side Dip/Ride](https://youtu.be/8e83By6DE_A?si=Aiw_zOKdxcEXusaP&t=42) [Left/Both]
+4. [Archer Whip to Lead and Follow Turn then Face Audience](https://youtu.be/_RYd6Seg8Ic?si=E-Ogx22vCtRsnHYX&t=73) [Left]
+5. [Long Barrel Roll with Syncopation](https://youtu.be/xQTpcjV0hN4?si=q8ynPn4kh5XzKVjF&t=81) [Both]
 
 ## 9 Count
-- [One Footed Spin (Follow Ends It on One)](https://youtu.be/tNM-vsw3z9s?si=fjlUr63MPCiNBNo6&t=73) [Right]
-- [Baseball Throw to Dip](https://youtu.be/m0i5zYBYrgQ?si=C524KoUKpV3GUwS3&t=56) [Right] [Tutorial](https://www.youtube.com/watch?v=xr2KOCAsdGo)
-- Whip with Triple Outside Turn [Both]
+1. [One Footed Spin (Follow Ends It on One)](https://youtu.be/tNM-vsw3z9s?si=fjlUr63MPCiNBNo6&t=73) [Right]
+2. [Baseball Throw to Dip](https://youtu.be/m0i5zYBYrgQ?si=C524KoUKpV3GUwS3&t=56) [Right] [Tutorial](https://www.youtube.com/watch?v=xr2KOCAsdGo)
+3. Whip with Triple Outside Turn [Both]
 
