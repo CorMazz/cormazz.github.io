@@ -82,7 +82,7 @@ Not all phrase changes are created equal. There are different types that require
 
 ## Accenting the Music
 
-To really make a dance shine, you can't just hit the major ones, you have to hit different accents within the music. A good example of this is Keerigan in [this video](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=27). If you notice, he plays with the pauses and accents in the music and aligns his dance to them. [The rainbow](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=37) at 37 seconds is a particularly good example of this. He did this by knowing that the music had a minor accent with the word "ahh" on the "and" before 3 and 7. Thus, in this example, he started his rainbow on 1 and __sharply__ hit the 3. The math doesn't play as nicely when not hitting the major one, but with practice this is achievable.  
+To really make a dance shine, you can't just hit the major ones, you have to hit different accents within the music. A good example of this is Keerigan in [this video](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=27). If you notice, he plays with the pauses and accents in the music and aligns his dance to them. [The rainbow](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=35) at 37 seconds is a particularly good example of this. He did this by knowing that the music had a minor accent with the word "ahh" on the "and" before 3 and 7. Thus, in this example, he started his rainbow on 1 and __sharply__ hit the 3. The math doesn't play as nicely when not hitting the major one, but with practice this is achievable.  
 
 # How to Practice
 
