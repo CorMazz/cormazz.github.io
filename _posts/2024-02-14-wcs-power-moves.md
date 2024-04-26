@@ -73,7 +73,7 @@ Thus, starting from (3, 7), if I do a sugar-push I’ll end up on (4, 5), and fr
 
 ## Musical Exceptions
 
-Certain songs are exceptions to this rule. For instance, 12 bar blues songs do not follow the 4 phrase count pattern. They would instead hit on the 1 after 6 measures (since 12 musician bars are 6 dancer measures). Other songs simply modify this pattern. For instance, the song [_Move Me_ by Liyr](https://www.youtube.com/watch?v=mSrw5KTwvrA) delays the hit to the 2 after the phrase change in the chorus. You and your follow have to be aware of oddities such as this and adapt to hit them anyways. 
+Certain songs are exceptions to this rule. For instance, 12 bar blues songs do not follow the 4 phrase count pattern. They would instead hit on the 1 after 6 measures (since 12 musician bars are 6 dancer measures). Other songs simply modify this pattern. For instance, the song [_Move Me_ by Liyr](https://www.youtube.com/watch?v=mSrw5KTwvrA) delays the hit to the 2 after the phrase change in the chorus. You and your follow have to be aware of oddities such as this and adapt to hit them anyways. More of these musical oddities are covered in the [Practice Playlist](#practice-playlist).
 
 # Tailoring the Hit
 
