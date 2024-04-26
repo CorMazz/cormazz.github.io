@@ -75,9 +75,17 @@ Thus, starting from (3, 7), if I do a sugar-push I’ll end up on (4, 5), and fr
 
 Certain songs are exceptions to this rule. For instance, 12 bar blues songs do not follow the 4 phrase count pattern. They would instead hit on the 1 after 6 measures (since 12 musician bars are 6 dancer measures). Other songs simply modify this pattern. For instance, the song [_Move Me_ by Liyr](https://www.youtube.com/watch?v=mSrw5KTwvrA) delays the hit to the 2 after the phrase change in the chorus. You and your follow have to be aware of oddities such as this and adapt to hit them anyways. 
 
+# Tailoring the Hit
+
+(This section is under-development and terminology is subject to change).
+Not all phrase changes are created equal. There are different types that require different things. Sometimes the music stops right at the major one -- and that'd be a great time for a dip, a catch, or something else that is sharp. Other times the music shifts character to more flowy and ethereal -- that'd be a great time for a ride. And other times the music gets jiggy with it right at the major one -- which is a great time for [getting jiggy with it.](https://www.youtube.com/watch?v=3JcmQONgXJM) For the moment, I'll call these sharp, lyrical, and groovy hits. A good dancer will choose the correct hit for the correct type of phrase change.
+
 ## Accenting the Music
 
 To really make a dance shine, you can't just hit the major ones, you have to hit different accents within the music. A good example of this is Keerigan in [this video](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=27). If you notice, he plays with the pauses and accents in the music and aligns his dance to them. [The rainbow](https://youtu.be/tNM-vsw3z9s?si=gvi_QfHkmNon-8t7&t=37) at 37 seconds is a particularly good example of this. He did this by knowing that the music had a minor accent with the word "ahh" on the "and" before 3 and 7. Thus, in this example, he started his rainbow on 1 and hit the 3. The math doesn't play as nicely when not hitting the major one, but with practice this is achievable.  
+
+# How to Practice
+
 
 # Figure Compendium
 
@@ -85,7 +93,7 @@ The following is a list of “power moves” that you can use to hit the phrase 
 
 ## 1 Count
 
-- Sugar Tuck Position [Both]
+- Sugar Tuck Position [Both, Sharp]
 
 ## 3 Count
 
@@ -118,6 +126,9 @@ The following is a list of “power moves” that you can use to hit the phrase 
 
 ## 9 Count
 1. [One Footed Spin (Follow Ends It on One)](https://youtu.be/tNM-vsw3z9s?si=fjlUr63MPCiNBNo6&t=73) [Right]
-2. [Baseball Throw to Dip](https://youtu.be/m0i5zYBYrgQ?si=C524KoUKpV3GUwS3&t=56) [Right] [Tutorial](https://www.youtube.com/watch?v=xr2KOCAsdGo)
+2. [Baseball Throw to Dip](https://youtu.be/m0i5zYBYrgQ?si=C524KoUKpV3GUwS3&t=56) [Right] -- [Tutorial](https://www.youtube.com/watch?v=xr2KOCAsdGo)
 3. Whip with Triple Outside Turn [Both]
 
+# Additional Resources
+
+I found [this video](https://www.youtube.com/watch?v=jPQXX6pIYvQ) by Rolf and Karen after I'd already written this, but this is pretty much the same idea. 
