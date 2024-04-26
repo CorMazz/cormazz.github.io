@@ -86,6 +86,21 @@ To really make a dance shine, you can't just hit the major ones, you have to hit
 
 # How to Practice
 
+In order to do this, first you have to be able to count the music. Open up a WCS playlist, such as [this one,](https://open.spotify.com/playlist/7G9ifJZ1wnfH0mnzmjDrmj?si=c41085b168074635) and literally just sit there counting the music per the technique shown above. Once you can do that, start walking out six and eight-count figures while continuing to count the music. Do this not until you get it right, but until you cannot get it wrong. Next, you have to be able to calculate what figure combination you need to get you to the (5, 1). To do this, first choose a figure from the compendium, preferably a three or five-count one. You're going to stick with just this figure for simplicity to help you get it into muscle memory. Then, keep your song playing and then stop the song at your next anchor after (3, 1). From that point, do the math to determine what figures you would've needed to execute to get you to the correct beat at which you needed to start your chosen figure. 
+
+For example, say I choose a 3-Count Slingshot as my figure. I dance, dance, dance, and then I finish my anchor on (3,2). This means that I am about to step on (3, 3). I know with my 3-Count slingshot, I need to end up on (4, 7) to land the phrase change since 7 + 3 = 10. From (3, 3) I can do two six-count patterns to bring me to (4, 1) and then (4, 7), where I can then hit my slingshot. 
+
+Once you do that math, play the music again, keep dancing and counting, and then repeat when you get to the next phrase change. Once you can reliably do the math with the music paused, you should start leaving the music playing and seeing if you can do the math on the fly. Finally, when you have all that down by yourself, you can add a partner and watch her smile as you hit the phrase changes. 
+
+## Practice Playlist
+
+[The practice playlist I have provided](https://open.spotify.com/playlist/7G9ifJZ1wnfH0mnzmjDrmj?si=c41085b168074635) contains a number of different types of songs to show the different scenarios that the math may need to be applied/altered to fit the song. Here is a description of each, in order.
+
+1. So Glad I'm Me: This song is a standard, run-of-the-mill WCS song, except **every single phrase change** is accented. You'll see what I mean.
+2. Jamming: This is one of those exception songs. It has a sharp stop on the (4, 5), which requires slight modification of the math to hit it. In this case, just add to 5 instead of 10.
+3. Cleo's Mood: This is a 12-bar blues song, which means a phrase is 6 dance measures. You'll have to hit on the (6, 5) to nail this song.
+4. State Line: This is a weird song that does a half-baked hit on every other 5. Just to show some spice. 
+5. Move Me: This song is absolute gas, but it hits on the 2 after the phrase change. Execute your figures the same way you would normally, but save the money shot for the 2. 
 
 # Figure Compendium
 
