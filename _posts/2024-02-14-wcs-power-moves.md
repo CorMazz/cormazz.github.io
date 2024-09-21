@@ -98,9 +98,10 @@ Once you do that math, play the music again, keep dancing and counting, and then
 
 1. So Glad I'm Me: This song is a standard, run-of-the-mill WCS song, except **every single phrase change** is accented. You'll see what I mean.
 2. Jamming: This is one of those exception songs. It has a sharp stop on the (4, 5), which requires slight modification of the math to hit it. In this case, just add to 5 instead of 10.
-3. Cleo's Mood: This is a 12-bar blues song, which means a phrase is 6 dance measures. You'll have to hit on the (6, 5) to nail this song.
-4. State Line: This is a weird song that does a half-baked hit on every other 5. Just to show some spice. 
-5. Move Me: This song is absolute gas, but it hits on the 2 after the phrase change. Execute your figures the same way you would normally, but save the money shot for the 2. 
+3. Cleo's Mood: This is a 12-bar blues song, which means a phrase is 6 dance measures. Also, it hits on the 5 instead of the one. You'll have to hit on the (6, 5) to nail this song.
+4. State Line: This is a weird song that does a half-baked hit on every other 5. Just to show some spice. Good luck...
+5. Move Me: This song is absolute gas, and it hits on the 2 after the phrase change. Execute your figures the same way you would normally, but save the money shot for the 2. 
+6. Stays the Same: This song is a standard WCS as well, and I added it to practice the different types of hits. 
 
 # Figure Compendium
 
@@ -138,6 +139,7 @@ The following is a list of “power moves” that you can use to hit the phrase 
 3. [Archer Whip to Inside Duck Turn into Side Dip/Ride](https://youtu.be/8e83By6DE_A?si=Aiw_zOKdxcEXusaP&t=42) [Left/Both]
 4. [Archer Whip to Lead and Follow Turn then Face Audience](https://youtu.be/_RYd6Seg8Ic?si=E-Ogx22vCtRsnHYX&t=73) [Left]
 5. [Long Barrel Roll with Syncopation](https://youtu.be/xQTpcjV0hN4?si=q8ynPn4kh5XzKVjF&t=81) [Both]
+6. [Left Side Pass with an Inside Wrap, Unwrap to Duck](https://youtu.be/ovTpH7oQpqo?si=VGOPY9XO9mNWKO07&t=18) [Both]
 
 ## 9 Count
 1. [One Footed Spin (Follow Ends It on One)](https://youtu.be/tNM-vsw3z9s?si=fjlUr63MPCiNBNo6&t=73) [Right]
