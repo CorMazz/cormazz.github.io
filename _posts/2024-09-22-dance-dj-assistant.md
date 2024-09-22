@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Dance DJ Assistant
-subtitle: Learning to Write a Python Webapp
+subtitle: Learning to Write a Python Web App
 gh-repo: cormazz/DanceDJAssistant
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/blog_posts/bp.dance_dj_assistant/cover_img.png
 share-img: /assets/blog_posts/bp.dance_dj_assistant/cover_img.png
-tags: [python, flask, docker, spotify, dance, DJ]
+tags: [python, flask, docker, spotify, dance, DJ, nginx]
 comments: true
 author: Corrado R. Mazzarelli
 ---
