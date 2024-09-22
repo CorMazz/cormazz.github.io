@@ -25,6 +25,8 @@ navbar-links:
   Resume: "/assets/pdf/Resume 7.0.pdf"
   About Me: "aboutme"
   Highlighted Projects:
+    - Dancexam: "https://dancexam.corradomazzarelli.com"
+    - DanceDJ: "https://dancedj.corradomazzarelli.com"
     - Spectrogram: "https://www.corradomazzarelli.com/2023-12-17-spectrography/"
     - CFD Solver: "https://www.corradomazzarelli.com/2024-01-26-cfd/"
 
