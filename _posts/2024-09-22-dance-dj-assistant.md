@@ -28,9 +28,9 @@ To see an example of the project in action, visit the [homepage](https://dancedj
 
 # Features
 
-Tempo Organization: Automatically organizes tracks based on beats-per-minute (BPM) to fit a designated profile.
-Spotify Integration: Syncs seamlessly with Spotify, allowing DJs to access and modify their playlists.
-User-Friendly Interface: Built with Flask and optimized for ease of use, the web interface provides DJs with quick access to playlist management tools.
+**Tempo Organization**: Automatically organizes tracks based on beats-per-minute (BPM) to fit a designated profile.
+**Spotify Integration**: Syncs seamlessly with Spotify, allowing DJs to access and modify their playlists.
+**User-Friendly Interface**: Built with Flask and optimized for ease of use, the web interface provides DJs with quick access to playlist management tools.
 
 ## Technologies Used
 
@@ -39,6 +39,10 @@ User-Friendly Interface: Built with Flask and optimized for ease of use, the web
 * Spotify API: Provides real-time access to music data.
 * Docker: Enables easy deployment and scaling of the application across platforms.
 
+## Interesting Aspects
+
+The task at hand was to align the BPMs of songs in a playlist to match a defined profile. This is so that you don't get a playlist with all the fast/slow songs grouped together, which is likely to tire/bore dancers. Instead, you try to make your playlist have a cyclic profile, like a sinusoid. Interestingly enough, the problem of aligning song BPMs to a profile can be better thought of as **assigning** different songs to spots on a profile. When thought of like that, the solution is one that has already been found for a common problem in computer science: the assignment problem. Using the Hungarian algorithm implementation in Scipy allowed for relatively quick solutions to assigning the playlist songs. Combine that with Spotify's SpotiPy API, and an application was born.
+
 # Conclusion
 
-The Dance DJ Assistant offers an efficient way for DJs to curate and manage playlists. By leveraging Python and Spotify’s capabilities, DJs can create custom playlists that keep the dance floor energized. For more details, check out the GitHub repository.
+The Dance DJ Assistant offers an efficient way for DJs to curate and manage playlists. By leveraging Python and Spotify’s capabilities, DJs can create custom playlists that keep the dance floor energized. For more details, check out the GitHub repository and the [homepage](https://dancedj.corradomazzarelli.com), which goes into details about the functionality. 

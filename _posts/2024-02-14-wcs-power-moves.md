@@ -10,17 +10,16 @@ author: Corrado R. Mazzarelli
 ---
 
 # Summary:
-Music in WCS has big moments where it is fun to hit the music. These moments usually happen on the _major one_, directly after a phrase, which is a collection of 32 beats, divided into 4, 8-beat long measures. To hit the 1 of the new phrase with a _power move_ such as a dip or a ride, take note of how many beats the power move requires. If a power move requires 5 beats, then start that power move on the 5th beat of the 4th measure in the music. The goal is to get the number of beats the power move requires and the beat in the 4th measure that you begin the power move on to sum to 10. That will ensure that you 'hit' the music with your power move at just the right time. 
+
+Music in WCS has big moments where it is fun to hit the music. These moments usually happen on the _major one_, directly after a phrase, which is a collection of 32 beats, divided into 4, 8-beat long measures. To hit the 1 of the new phrase with a _power move_ such as a dip or a ride, take note of how many beats the power move requires. If a power move requires 5 beats, then start that power move on the 5th beat of the 4th measure in the music. The goal is to get the number of beats the power move requires and the beat in the 4th measure that you begin the power move on to sum to 10. That will ensure that you 'hit' the music with your power move at just the right time.
 
 * Do not remove this line (it will not be displayed)
 {:toc}
-
 
 # Dancer Theory
 
 {: .box-note}
 If you're dancing to the music, why are you counting to your feet?"
-
 
 ## Who Should Count the Music?
 
@@ -29,8 +28,7 @@ When you first started learning WCS, you probably learned to count as you steppe
 
 ## Why Count the Music?
 
-Counting the music will enable you to hit the significant musical moments and make your dancing feel more connected with your partner, the music, and the audience. It is simply more fun to do. 
-
+Counting the music will enable you to hit the significant musical moments and make your dancing feel more connected with your partner, the music, and the audience. It is simply more fun to do.
 
 ## Dance Music Theory
 
@@ -57,19 +55,20 @@ A simple, useful way of counting the music is to replace the 1 of every set of 8
 **4**, 2, 3, 4, 5, 6, 7, 8
 
 ## What is Hitting the Phrase?
-When the phrase change comes, you want to hit what is known as the major 1, which is the 1 just after the last phrase has ended. That means you synchronize a critical point of your dance with that critical point in the music. 
+
+When the phrase change comes, you want to hit what is known as the major 1, which is the 1 just after the last phrase has ended. That means you synchronize a critical point of your dance with that critical point in the music.
 
 ## How to Hit the Phrase
 
-To hit the phrase you want the sum of the beat in the 4th measure that you start the figure, and the power move’s count, to be 10. Meaning, if we are starting a figure on the 3rd beat of the 4th measure, denoted (4, 3), then our figure has to be a 7 count figure from the list below, because 3 and 7 add to 10. Similarly, if you are about to begin a figure on (4, 5), you need to select a 5 count figure from the compendium, since 5 + 5 = 10. 
+To hit the phrase you want the sum of the beat in the 4th measure that you start the figure, and the power move’s count, to be 10. Meaning, if we are starting a figure on the 3rd beat of the 4th measure, denoted (4, 3), then our figure has to be a 7 count figure from the list below, because 3 and 7 add to 10. Similarly, if you are about to begin a figure on (4, 5), you need to select a 5 count figure from the compendium, since 5 + 5 = 10.
 If you just think about what power move you’re going to use at the last second, then you limit yourself and you cannot match the power move to the change in the music. You can actually plan ahead such that you line up the desired power move. For instance, if the phrase change starts a soft, lyrical hit, then a ride would be an ideal choice of power move, whereas if the phrase change was when the beat dropped, a dip would be ideal. 
 
 Ideally, if you had the processing power, you could plan all of your figures such that you end up at the phrase change with little effort. However, to save some effort, we’re going to start thinking about the phrase change once we reach beat 1 of measure 3, denoted as (3, 1). Once you reach (3, 1), proceed to your next natural anchor and take note of when you will begin the next pattern. For instance, say you finish your anchor on (3, 2), meaning you will start your next pattern on (3, 3). If you do a 6-count pattern, that will bring you to (4, 1). Since music is counted in 8’s, a 6-count pattern will always “move you back” two beats, as shown in the previous example where a six count figure took us from (3, **3**) to (4, **1**). An 8-count figure, started on (3, 3), would lead to the next figure beginning on (4, 3). Thus, by strategically choosing between 6, 8, or other patterns, you can place yourself on the right beat in the 4th measure to hit your power move of choice.
 
 ### Example
 
-I just anchored and I am ready to step on (3, 7). I want to hit an inside turn with a dip, which we know is a 5-count power move that will face the audience on the left. Since that power move is a 5-count, I need to start it on (4, 5), since 5 + 5 = 10. To get to (4, 5) from (3, 7), I need to do a 6-count pattern, because a 6-count pattern will “move me back” two beats. 
-Thus, starting from (3, 7), if I do a sugar-push I’ll end up on (4, 5), and from (4, 5) I can happily lead my inside turn with a dip that will hit the major 1 in the phrase change. 
+I just anchored and I am ready to step on (3, 7). I want to hit an inside turn with a dip, which we know is a 5-count power move that will face the audience on the left. Since that power move is a 5-count, I need to start it on (4, 5), since 5 + 5 = 10. To get to (4, 5) from (3, 7), I need to do a 6-count pattern, because a 6-count pattern will “move me back” two beats.
+Thus, starting from (3, 7), if I do a sugar-push I’ll end up on (4, 5), and from (4, 5) I can happily lead my inside turn with a dip that will hit the major 1 in the phrase change.
 
 ## Musical Exceptions
 
