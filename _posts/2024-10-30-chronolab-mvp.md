@@ -25,7 +25,7 @@ The development process involved making numerous architectural decisions, from c
 
 # Demo
 
-<video width="100%" controls style="border-radius: 10px;">
+<video width="100%" controls muted style="border-radius: 10px;">
   <source src="/assets/blog_posts/bp.chronolab/mvp_demo_video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
