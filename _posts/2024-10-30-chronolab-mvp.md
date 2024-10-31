@@ -47,7 +47,7 @@ The implementation split across two key files:
 
 ## UI Framework Selection
 
-I performend extensive research reading Reddit posts about React UI frameworks. After learning a plethora of novel insults, I decided that the community was as opinionated as they were divided on the issue. Given that this is a learning project and I've already learned TailwindCSS, I decided to try Material UI, which seemed to be a popular choice. I also tried Fluent UI, which had a more appealing aesthetic, but was difficult to get working. This experience taught me that when learning new technologies, sometimes the most popular choice is popular for good reasons.
+I performed extensive research reading Reddit posts about React UI frameworks. After learning a plethora of novel insults, I decided that the community was as opinionated as they were divided on the issue. Given that this is a learning project and I had already learned TailwindCSS, I decided to try Material UI, which seemed to be a popular choice. I also tried Fluent UI, which had a more appealing aesthetic, but was difficult to get working. This experience taught me that when learning new technologies, sometimes the most popular choice is popular for good reasons.
 
 ## Plotting Library Evolution
 
