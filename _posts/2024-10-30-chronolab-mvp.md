@@ -23,6 +23,13 @@ Chronolab emerged from a desire to create a tool that would allow researchers to
 
 The development process involved making numerous architectural decisions, from choosing appropriate libraries to determining the optimal state management strategy. These decisions shaped both the application's functionality and my understanding of frontend development.
 
+# Demo
+
+<video width="100%" controls>
+  <source src="/assets/blog_posts/bp.chronolab/mvp_demo_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 # Key Technical Decisions
 
 ## Frontend vs Backend State Management
