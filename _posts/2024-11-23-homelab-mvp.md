@@ -77,41 +77,71 @@ This diagram explains how the routing works for my home network. Note that in or
 
 ```mermaid
 flowchart TD
-    subgraph "Local Access Methods"
+    %% Define styles
+    classDef device fill:#e6e6fa,stroke:#9370db,stroke-width:2px
+    classDef router fill:#fff3e0,stroke:#ff9800,stroke-width:2px
+    classDef vm fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
+    classDef service fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
+
+    %% Local Access Methods
+    subgraph LAM["Local Access Methods"]
+        direction LR
         Wifi["WiFi Device"]
         Ethernet["Ethernet Device"]
         TS["Tailscale Device"]
     end
 
-    subgraph "Home Network"
-        Router["NetGear RAX20 Router\n(10.0.0.1)\nConfigured to use AdGuard as DNS"]
-        
-        subgraph "Home Server - Proxmox"
-            subgraph "DNS VM (10.0.0.3)"
+    %% Home Network
+    subgraph HN["Home Network"]
+        Router["NetGear RAX20\n(10.0.0.1)\nDNS → AdGuard"]
+
+        %% Proxmox Server
+        subgraph PS["Home Server - Proxmox"]
+            direction TB
+            
+            %% DNS VM
+            subgraph DNS["DNS VM (10.0.0.3)"]
                 AdGuard["AdGuard Home\nLocal DNS Server"]
             end
             
-            subgraph "Web Services VM"
-                nginx["Nginx Proxy Manager\n(Traffic Director)"]
+            %% Web Services VM
+            subgraph WS["Web Services VM"]
+                direction TB
+                nginx["Nginx Proxy Manager"]
                 ssl["SSL Certificates\n(Let's Encrypt)"]
                 
-                service1["AdGuard Admin\nInterface"]
-                service2["Proxmox Dashboard"]
-                service3["Homepage"]
+                subgraph Services["Web Services"]
+                    direction LR
+                    service1["AdGuard Admin"]
+                    service2["Proxmox Dashboard"]
+                    service3["Homepage"]
+                end
+                
+                nginx --> ssl
+                nginx --> service1
+                nginx --> service2
+                nginx --> service3
             end
         end
     end
 
-    Wifi -->|"Connects to"| Router
-    Ethernet -->|"Connects to"| Router
-    TS -->|"Connects via Tailscale"| Router
-    Router -->|"1. DNS Query:\nmyservice.corradomazzarelli.com"| AdGuard
-    AdGuard -->|"2. Resolves to local IP"| Router
-    Router -->|"3. Forwards to"| nginx
-    nginx -->|"4. Verifies"| ssl
-    nginx -->|"5. Routes traffic"| service1
-    nginx -->|"5. Routes traffic"| service2
-    nginx -->|"5. Routes traffic"| service3
+    %% Connections
+    Wifi --> |"Connects to"| Router
+    Ethernet --> |"Connects to"| Router
+    TS --> |"Connects via\nTailscale"| Router
+    Router --> |"1. DNS Query:\nmyservice.corradomazzarelli.com"| AdGuard
+    AdGuard --> |"2. Resolves to local IP"| Router
+    Router --> |"3. Forwards to"| nginx
+    nginx --> |"4. Verifies SSL"| ssl
+    nginx --> |"5. Routes traffic"| service1
+    nginx --> |"5. Routes traffic"| service2
+    nginx --> |"5. Routes traffic"| service3
+
+    %% Apply styles
+    class Wifi,Ethernet,TS device
+    class Router router
+    class AdGuard,nginx,ssl vm
+    class service1,service2,service3 service
 ```
 
 ### Setup Instructions
