@@ -54,6 +54,136 @@ I chose Proxmox because it's:
 4. Lets me run both full virtual machines and lightweight containers
 5. Makes it easy to backup and manage my virtual systems
 
+## Current Setup: Docker and Services
+
+My current implementation uses Docker containers running on a VM:
+
+1. Network Config VM
+   1. **DNS Server**: AdGuard Home for local DNS resolution
+   2. **Reverse Proxy**: Nginx Proxy Manager for routing traffic
+   3. **SSL Certificates**: Using Let's Encrypt with DNS challenges
+2. VPN VM
+   1. Tailscale with [Split DNS Enabled](https://www.youtube.com/watch?v=Uzcs97XcxiE)
+
+This setup enables:
+
+* Local domain name resolution
+* Secure remote access to services with local domain names
+* Clean URLs for various applications
+
+### Reverse Proxy and SSL Architecture Diagram
+
+This diagram explains how the routing works for my home network. Note that in order to access my services, you need to be on my home network either via my wireless access point, ethernet, or Tailscale. Nothing is exposed to the public internet.
+
+```mermaid
+flowchart TD
+    subgraph "Local Access Methods"
+        Wifi["WiFi Device"]
+        Ethernet["Ethernet Device"]
+        TS["Tailscale Device"]
+    end
+
+    subgraph "Home Network"
+        Router["NetGear RAX20 Router\n(10.0.0.1)\nConfigured to use AdGuard as DNS"]
+        
+        subgraph "Home Server - Proxmox"
+            subgraph "DNS VM (10.0.0.3)"
+                AdGuard["AdGuard Home\nLocal DNS Server"]
+            end
+            
+            subgraph "Web Services VM"
+                nginx["Nginx Proxy Manager\n(Traffic Director)"]
+                ssl["SSL Certificates\n(Let's Encrypt)"]
+                
+                service1["AdGuard Admin\nInterface"]
+                service2["Proxmox Dashboard"]
+                service3["Homepage"]
+            end
+        end
+    end
+
+    Wifi -->|"Connects to"| Router
+    Ethernet -->|"Connects to"| Router
+    TS -->|"Connects via Tailscale"| Router
+    Router -->|"1. DNS Query:\nmyservice.corradomazzarelli.com"| AdGuard
+    AdGuard -->|"2. Resolves to local IP"| Router
+    Router -->|"3. Forwards to"| nginx
+    nginx -->|"4. Verifies"| ssl
+    nginx -->|"5. Routes traffic"| service1
+    nginx -->|"5. Routes traffic"| service2
+    nginx -->|"5. Routes traffic"| service3
+```
+
+### Setup Instructions
+
+1. Create an Ubuntu VM on my Proxmox host with the default settings for storage, RAM, and CPU cores.
+2. Install [Docker on the Ubuntu VM](https://docs.docker.com/engine/install/ubuntu/)
+3. Create Docker Compose files for [Nginx Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup), [AdguardHome](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker#quickstart), and [Homepage](https://gethomepage.dev/installation/docker/)
+   1. Optionally disable [resolved](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker#resolved) if AdguardHome isn't binding properly
+   2. See [included files](#files-created) for file content used
+4. Start the services
+   1. I used the [start_services.sh](#start_servicessh) script
+5. Access the AdguardHome Dashboard at `http://<ip-of-your-vm>:3000`
+   1. Set it up to listen on all interfaces at port 3000
+   2. Use `ip addr show` to get the IP address of your VM
+6. Access the Nginx Proxy Manager dashboard at `http://<ip-of-your-vm>:81`
+7. Follow [these instructions](https://www.wundertech.net/local-ssl-for-home-lab-services-nginx-proxy-manager/) to set up SSL certificates and proxy hosts for your services
+   1. I already had a domain managed by Cloudflare (hint, you're on it right now), so I used that
+   2. On AdguardHome you use DNS Rewrites instead of ANAME and CNAME records like the instructions did
+
+### Folder/File Structure
+
+The following are the folders and files that I created on the VM to enable my services. The contents of these files are included below.
+
+```mermaid
+flowchart TD
+    root["./"]
+    data["data/"]
+    adguard["adguard/"]
+    adguard_conf["conf/"]
+    adguard_work["work/"]
+    
+    homepage["homepage/"]
+    homepage_config["config/"]
+    
+    nginx["nginx/"]
+    nginx_data["data/"]
+    nginx_ssl["letsencrypt/"]
+    
+    compose1["docker-compose-adguard.yml"]
+    compose2["docker-compose-homepage.yml"]
+    compose3["docker-compose-nginx.yml"]
+    start["start_services.sh"]
+    stop["stop_services.sh"]
+
+    root --> data
+    root --> compose1
+    root --> compose2
+    root --> compose3
+    root --> start
+    root --> stop
+    
+    data --> adguard
+    adguard --> adguard_conf
+    adguard --> adguard_work
+    
+    data --> homepage
+    homepage --> homepage_config
+    
+    data --> nginx
+    nginx --> nginx_data
+    nginx --> nginx_ssl
+```
+
+## Potential Future Software
+
+[This link](https://github.com/awesome-selfhosted/awesome-selfhosted#dns) is an awesome repository of selfhosted software. I've looked through it and chosen some things that I found interesting and may want to install in the future.
+
+1. [vikunja](https://vikunja.io/)
+2. [HRConvert2](https://github.com/zelon88/HRConvert2)
+3. [Reactive Resume](https://docs.rxresu.me/overview/features)
+4. [Frigate](https://frigate.video/)
+
 ## Ministory 1 -- Network Routing: An Educational Experience
 
 I recently ran into an interesting networking situation that taught me a lot about how home networks actually work. Here's what happened:
@@ -214,136 +344,6 @@ Proxmox Host
    * Can't run Windows containers
    * Must use host's kernel
    * Shared kernel security concerns
-
-## Current Setup: Docker and Services
-
-My current implementation uses Docker containers running on a VM:
-
-1. Network Config VM
-   1. **DNS Server**: AdGuard Home for local DNS resolution
-   2. **Reverse Proxy**: Nginx Proxy Manager for routing traffic
-   3. **SSL Certificates**: Using Let's Encrypt with DNS challenges
-2. VPN VM
-   1. Tailscale with [Split DNS Enabled](https://www.youtube.com/watch?v=Uzcs97XcxiE)
-
-This setup enables:
-
-* Local domain name resolution
-* Secure remote access to services with local domain names
-* Clean URLs for various applications
-
-### Reverse Proxy and SSL Architecture Diagram
-
-This diagram explains how the routing works for my home network. Note that in order to access my services, you need to be on my home network either via my wireless access point, ethernet, or Tailscale. Nothing is exposed to the public internet.
-
-```mermaid
-flowchart TD
-    subgraph "Local Access Methods"
-        Wifi["WiFi Device"]
-        Ethernet["Ethernet Device"]
-        TS["Tailscale Device"]
-    end
-
-    subgraph "Home Network"
-        Router["NetGear RAX20 Router\n(10.0.0.1)\nConfigured to use AdGuard as DNS"]
-        
-        subgraph "Home Server - Proxmox"
-            subgraph "DNS VM (10.0.0.3)"
-                AdGuard["AdGuard Home\nLocal DNS Server"]
-            end
-            
-            subgraph "Web Services VM"
-                nginx["Nginx Proxy Manager\n(Traffic Director)"]
-                ssl["SSL Certificates\n(Let's Encrypt)"]
-                
-                service1["AdGuard Admin\nInterface"]
-                service2["Proxmox Dashboard"]
-                service3["Homepage"]
-            end
-        end
-    end
-
-    Wifi -->|"Connects to"| Router
-    Ethernet -->|"Connects to"| Router
-    TS -->|"Connects via Tailscale"| Router
-    Router -->|"1. DNS Query:\nmyservice.corradomazzarelli.com"| AdGuard
-    AdGuard -->|"2. Resolves to local IP"| Router
-    Router -->|"3. Forwards to"| nginx
-    nginx -->|"4. Verifies"| ssl
-    nginx -->|"5. Routes traffic"| service1
-    nginx -->|"5. Routes traffic"| service2
-    nginx -->|"5. Routes traffic"| service3
-```
-
-### Setup Instructions
-
-1. Create an Ubuntu VM on my Proxmox host with the default settings for storage, RAM, and CPU cores.
-2. Install [Docker on the Ubuntu VM](https://docs.docker.com/engine/install/ubuntu/)
-3. Create Docker Compose files for [Nginx Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup), [AdguardHome](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker#quickstart), and [Homepage](https://gethomepage.dev/installation/docker/)
-   1. Optionally disable [resolved](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker#resolved) if AdguardHome isn't binding properly
-   2. See [included files](#files-created) for file content used
-4. Start the services
-   1. I used the [start_services.sh](#start_servicessh) script
-5. Access the AdguardHome Dashboard at `http://<ip-of-your-vm>:3000`
-   1. Set it up to listen on all interfaces at port 3000
-   2. Use `ip addr show` to get the IP address of your VM
-6. Access the Nginx Proxy Manager dashboard at `http://<ip-of-your-vm>:81`
-7. Follow [these instructions](https://www.wundertech.net/local-ssl-for-home-lab-services-nginx-proxy-manager/) to set up SSL certificates and proxy hosts for your services
-   1. I already had a domain managed by Cloudflare (hint, you're on it right now), so I used that
-   2. On AdguardHome you use DNS Rewrites instead of ANAME and CNAME records like the instructions did
-
-### Folder/File Structure
-
-The following are the folders and files that I created on the VM to enable my services. The contents of these files are included below.
-
-```mermaid
-flowchart TD
-    root["./"]
-    data["data/"]
-    adguard["adguard/"]
-    adguard_conf["conf/"]
-    adguard_work["work/"]
-    
-    homepage["homepage/"]
-    homepage_config["config/"]
-    
-    nginx["nginx/"]
-    nginx_data["data/"]
-    nginx_ssl["letsencrypt/"]
-    
-    compose1["docker-compose-adguard.yml"]
-    compose2["docker-compose-homepage.yml"]
-    compose3["docker-compose-nginx.yml"]
-    start["start_services.sh"]
-    stop["stop_services.sh"]
-
-    root --> data
-    root --> compose1
-    root --> compose2
-    root --> compose3
-    root --> start
-    root --> stop
-    
-    data --> adguard
-    adguard --> adguard_conf
-    adguard --> adguard_work
-    
-    data --> homepage
-    homepage --> homepage_config
-    
-    data --> nginx
-    nginx --> nginx_data
-    nginx --> nginx_ssl
-```
-
-## Potential Future Software
-
-[This link](https://github.com/awesome-selfhosted/awesome-selfhosted#dns) is an awesome repository of selfhosted software. I've looked through it and chosen some things that I found interesting and may want to install in the future.
-
-1. [vikunja](https://vikunja.io/)
-2. [HRConvert2](https://github.com/zelon88/HRConvert2)
-3. [Reactive Resume](https://docs.rxresu.me/overview/features)
-4. [Frigate](https://frigate.video/)
 
 ## Files Created
 
