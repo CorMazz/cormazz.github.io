@@ -1,3 +1,20 @@
+---
+layout: post
+title: Learning Networking Through Setting Up A Home Server
+subtitle: My Journey and Instructions to Follow Along Yourself
+thumbnail-img: /assets/blog_posts/bp.homelab/cover_img.png
+share-img: /assets/blog_posts/bp.homelab/cover_img.png
+tags: [networking, dns, proxmox, linux, docker, nginx, reverse proxy]
+comments: true
+author: Corrado R. Mazzarelli
+---
+
+{: .box-success}
+This article explores my journey learning networking while creating my homelab and setting up my home network. I currently have AdGuardHome as a local DNS server and ad blocker, Nginx Proxy Manager as my reverse proxy, and Homepage as my dashboard.
+
+* Do not remove this line (it will not be displayed)
+{:toc}
+
 # Home Server Journey
 
 I decided to setup a home server to learn about networking, as well as to enable future endeavors such as testing out a Docker Swarm autograder application for the next iteration of GE's Python Bootcamp that I created. This blog post goes through and explains two interesting mini-stories where I learned some fundamental concepts about networking or how operating systems work, and then finally goes over the steps I took to get to my current setup for the homelab. The ministories are in the order I discovered them, since my journey was highly non-linear and took me on a long route of learning. 
@@ -16,18 +33,18 @@ To understand why this matters, let's compare the two types of hypervisors:
 
 ### Type 2 Hypervisor (like VirtualBox or VMware Workstation)
 
-- Runs on top of your regular operating system (like Windows or MacOS)
-- Your computer runs Windows → Windows runs VirtualBox → VirtualBox runs VMs
-- Good for testing and development on your personal computer
-- Less efficient because everything has to go through your main operating system
+* Runs on top of your regular operating system (like Windows or MacOS)
+* Your computer runs Windows → Windows runs VirtualBox → VirtualBox runs VMs
+* Good for testing and development on your personal computer
+* Less efficient because everything has to go through your main operating system
 
 ### Type 1 Hypervisor (like Proxmox)
 
-- Runs directly on your computer's hardware
-- Your computer runs Proxmox → Proxmox runs VMs
-- Better performance because there's no middle layer
-- More efficient use of your computer's resources
-- What data centers and cloud providers use
+* Runs directly on your computer's hardware
+* Your computer runs Proxmox → Proxmox runs VMs
+* Better performance because there's no middle layer
+* More efficient use of your computer's resources
+* What data centers and cloud providers use
 
 I chose Proxmox because it's:
 
@@ -43,9 +60,9 @@ I recently ran into an interesting networking situation that taught me a lot abo
 
 ### The Setup
 
-- Spectrum router (at 192.168.1.1)
-- Proxmox server connected via ethernet
-- Ubuntu VM running on the Proxmox host
+* Spectrum router (at 192.168.1.1)
+* Proxmox server connected via ethernet
+* Ubuntu VM running on the Proxmox host
 
 ### The Mystery
 
@@ -56,14 +73,14 @@ I noticed something odd: my router claimed my server was at 192.168.1.33, but I 
 Turns out, there are two ways a device can get an IP address on your network:
 
 1. **The Polite Way (DHCP)**
-   - Device asks router for an IP address
-   - Router assigns one from its pool
-   - Device uses what it's given
+   * Device asks router for an IP address
+   * Router assigns one from its pool
+   * Device uses what it's given
 
 2. **The Rebel Way (Static IP)**
-   - Device just announces "I'm using this IP now"
-   - As long as no other device is using that IP, it just works
-   - Router continues to route traffic because it recognizes the device's MAC address
+   * Device just announces "I'm using this IP now"
+   * As long as no other device is using that IP, it just works
+   * Router continues to route traffic because it recognizes the device's MAC address
 
 My Proxmox server was being a rebel - the router wanted to assign it 192.168.1.33 via DHCP, but Proxmox said "Nah, I'm going to be 192.168.1.2" and just... did it.
 
@@ -71,9 +88,9 @@ My Proxmox server was being a rebel - the router wanted to assign it 192.168.1.3
 
 Ideally, you'd use custom DHCP Reservation, which is like a permanent dinner reservation for your device:
 
-- Router sees device's MAC address
-- Router always assigns it the same IP
-- Everyone's happy because it's organized and documented
+* Router sees device's MAC address
+* Router always assigns it the same IP
+* Everyone's happy because it's organized and documented
 
 Unfortunately, my Spectrum router didn't support this feature exactly. The router would reserve an IP for a given device, but the IP was random and not the nice 192.168.1.2 that I originally wanted.
 However, to ensure that there were no IP conflicts, I went into the Proxmox settings and told the server to choose a static IP of 192.168.1.33, the same as the router was going to reserve for it.
@@ -89,26 +106,26 @@ When setting up remote access for my home server, I evaluated several VPN option
 
 ### WireGuard
 
-- Modern, fast VPN protocol
-- Requires manual configuration
-- Needs port forwarding setup
-- Offers complete control
-- Free, requires technical setup
+* Modern, fast VPN protocol
+* Requires manual configuration
+* Needs port forwarding setup
+* Offers complete control
+* Free, requires technical setup
 
 ### OpenVPN
 
-- Well-established VPN protocol
-- More complex configuration
-- Extensive documentation
-- Free, requires technical knowledge
+* Well-established VPN protocol
+* More complex configuration
+* Extensive documentation
+* Free, requires technical knowledge
 
 ### Tailscale
 
-- Built on WireGuard
-- Minimal configuration needed
-- No port forwarding required
-- Works through firewalls
-- Free tier available
+* Built on WireGuard
+* Minimal configuration needed
+* No port forwarding required
+* Works through firewalls
+* Free tier available
 
 I chose Tailscale primarily for its ease of setup and maintenance. The process was straightforward:
 
@@ -124,9 +141,9 @@ While this solution does rely on Tailscale's infrastructure, the convenience and
 
 A significant improvement came when I replaced the default Spectrum router with a NetGear RAX20. This upgrade enabled:
 
-- Custom DNS server configuration
-- Better DHCP management
-- More control over network settings
+* Custom DNS server configuration
+* Better DHCP management
+* More control over network settings
 
 The Spectrum router simply didn't provide the customization options that I needed, so I had to replace the hardware with something more capable.
 
@@ -138,9 +155,9 @@ A key learning experience was understanding the difference between containers an
 
 Think of an operating system like a restaurant:
 
-- The kernel is the kitchen and its staff (core operations)
-- The userspace (apps, etc.) are the dining room and waiters
-- The hardware is the building and utilities
+* The kernel is the kitchen and its staff (core operations)
+* The userspace (apps, etc.) are the dining room and waiters
+* The hardware is the building and utilities
 
 A traditional VM setup is like having multiple complete restaurants in different buildings:
 
@@ -167,12 +184,12 @@ Waiters 1      Waiters 2
 
 The kernel handles:
 
-- Hardware resource management
-- Memory management
-- Process scheduling
-- File system operations
-- Network stack
-- Device drivers
+* Hardware resource management
+* Memory management
+* Process scheduling
+* File system operations
+* Network stack
+* Device drivers
 
 In a theoretical setup:
 
@@ -188,15 +205,15 @@ Proxmox Host
 ### Practical Implications
 
 1. Benefits:
-   - Reduced overhead
-   - Better performance
-   - Lower memory usage
-   - Faster startup
+   * Reduced overhead
+   * Better performance
+   * Lower memory usage
+   * Faster startup
 
 2. Limitations:
-   - Can't run Windows containers
-   - Must use host's kernel
-   - Shared kernel security concerns
+   * Can't run Windows containers
+   * Must use host's kernel
+   * Shared kernel security concerns
 
 ## Current Setup: Docker and Services
 
@@ -211,9 +228,9 @@ My current implementation uses Docker containers running on a VM:
 
 This setup enables:
 
-- Local domain name resolution
-- Secure remote access to services with local domain names
-- Clean URLs for various applications
+* Local domain name resolution
+* Secure remote access to services with local domain names
+* Clean URLs for various applications
 
 ### Reverse Proxy and SSL Architecture Diagram
 
