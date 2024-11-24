@@ -93,7 +93,7 @@ flowchart TD
 
     %% Home Network
     subgraph HN["Home Network"]
-        Router["NetGear RAX20\n(10.0.0.1)\nDNS → AdGuard"]
+        Router["NetGear RAX20<br>(10.0.0.1)<br>Configured to use AdGuard as DNS"]
 
         %% Proxmox Server
         subgraph PS["Home Server - Proxmox"]
@@ -101,18 +101,18 @@ flowchart TD
             
             %% DNS VM
             subgraph DNS["DNS VM (10.0.0.3)"]
-                AdGuard["AdGuard Home\nLocal DNS Server"]
+                AdGuard["AdGuard Home<br>Local DNS Server"]
             end
             
             %% Web Services VM
             subgraph WS["Web Services VM"]
                 direction TB
-                nginx["Nginx Proxy Manager"]
-                ssl["SSL Certificates\n(Let's Encrypt)"]
+                nginx["Nginx Proxy Manager<br>(Traffic Director)"]
+                ssl["SSL Certificates<br>(Let's Encrypt)"]
                 
                 subgraph Services["Web Services"]
                     direction LR
-                    service1["AdGuard Admin"]
+                    service1["AdGuard Admin<br>Interface"]
                     service2["Proxmox Dashboard"]
                     service3["Homepage"]
                 end
@@ -128,8 +128,8 @@ flowchart TD
     %% Connections
     Wifi --> |"Connects to"| Router
     Ethernet --> |"Connects to"| Router
-    TS --> |"Connects via\nTailscale"| Router
-    Router --> |"1. DNS Query:\nmyservice.corradomazzarelli.com"| AdGuard
+    TS --> |"Connects via Tailscale"| Router
+    Router --> |"1. DNS Query:<br>myservice.corradomazzarelli.com"| AdGuard
     AdGuard --> |"2. Resolves to local IP"| Router
     Router --> |"3. Forwards to"| nginx
     nginx --> |"4. Verifies SSL"| ssl
