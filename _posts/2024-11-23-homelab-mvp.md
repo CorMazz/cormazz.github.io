@@ -89,37 +89,37 @@ flowchart TD
     classDef service fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
 
     %% Local Access Methods
-    subgraph LAM["Local Access Methods"]
+    subgraph LAM("Local Access Methods")
         direction LR
-        Wifi["WiFi Device"]
-        Ethernet["Ethernet Device"]
-        TS["Tailscale Device"]
+        Wifi("WiFi Device")
+        Ethernet("Ethernet Device")
+        TS("Tailscale Device")
     end
 
     %% Home Network
-    subgraph HN["Home Network"]
-        Router["NetGear RAX20<br>(10.0.0.1)<br>Configured to use AdGuard as DNS"]
+    subgraph HN("Home Network")
+        Router("NetGear RAX20<br>(10.0.0.1)<br>Configured to use AdGuard as DNS")
 
         %% Proxmox Server
-        subgraph PS["Home Server - Proxmox"]
+        subgraph PS("Home Server - Proxmox")
             direction TB
             
             %% DNS VM
-            subgraph DNS["DNS VM (10.0.0.3)"]
-                AdGuard["AdGuard Home<br>Local DNS Server"]
+            subgraph DNS("DNS VM (10.0.0.3)")
+                AdGuard("AdGuard Home<br>Local DNS Server")
             end
             
             %% Web Services VM
-            subgraph WS["Web Services VM"]
+            subgraph WS("Web Services VM")
                 direction TB
-                nginx["Nginx Proxy Manager<br>(Traffic Director)"]
-                ssl["SSL Certificates<br>(Let's Encrypt)"]
+                nginx("Nginx Proxy Manager<br>(Traffic Director)")
+                ssl("SSL Certificates<br>(Let's Encrypt)")
                 
-                subgraph Services["Web Services"]
+                subgraph Services("Web Services")
                     direction LR
-                    service1["AdGuard Admin<br>Interface"]
-                    service2["Proxmox Dashboard"]
-                    service3["Homepage"]
+                    service1("AdGuard Admin<br>Interface")
+                    service2("Proxmox Dashboard")
+                    service3("Homepage")
                 end
                 
                 nginx --> ssl
@@ -178,24 +178,24 @@ flowchart TD
     classDef subDir fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px,color:#000000
     classDef file fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000
 
-    root["./"]
-    data["data/"]
-    adguard["adguard/"]
-    adguard_conf["conf/"]
-    adguard_work["work/"]
+    root("./")
+    data("data/")
+    adguard("adguard/")
+    adguard_conf("conf/")
+    adguard_work("work/")
     
-    homepage["homepage/"]
-    homepage_config["config/"]
+    homepage("homepage/")
+    homepage_config("config/")
     
-    nginx["nginx/"]
-    nginx_data["data/"]
-    nginx_ssl["letsencrypt/"]
+    nginx("nginx/")
+    nginx_data("data/")
+    nginx_ssl("letsencrypt/")
     
-    compose1["docker-compose-adguard.yml"]
-    compose2["docker-compose-homepage.yml"]
-    compose3["docker-compose-nginx.yml"]
-    start["start_services.sh"]
-    stop["stop_services.sh"]
+    compose1("docker-compose-adguard.yml")
+    compose2("docker-compose-homepage.yml")
+    compose3("docker-compose-nginx.yml")
+    start("start_services.sh")
+    stop("stop_services.sh")
 
     root --> data
     root --> compose1
