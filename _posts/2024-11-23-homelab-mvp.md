@@ -65,6 +65,7 @@ My current implementation uses Docker containers running on a VM on my HP PC tha
       3. **SSL Certificates**: Using Let's Encrypt with DNS challenges
    2. VPN VM
       1. Tailscale with [Split DNS Enabled](https://www.youtube.com/watch?v=Uzcs97XcxiE)
+      2. Advertising all routes on my network to allow remote users to access the entire network
 
 This setup enables:
 
