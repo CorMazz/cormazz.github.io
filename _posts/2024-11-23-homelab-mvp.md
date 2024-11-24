@@ -17,7 +17,7 @@ This article explores my journey learning networking while creating my homelab a
 
 # Home Server Journey
 
-I decided to setup a home server to learn about networking, as well as to enable future endeavors such as testing out a Docker Swarm autograder application for the next iteration of GE's Python Bootcamp that I created. This blog post goes through and explains two interesting mini-stories where I learned some fundamental concepts about networking or how operating systems work, and then finally goes over the steps I took to get to my current setup for the homelab. The ministories are in the order I discovered them, since my journey was highly non-linear and took me on a long route of learning.
+I decided to setup a home server to learn about networking, as well as to enable future endeavors such as testing out a Docker Swarm autograder application for the next iteration of GE's Python Bootcamp that I created. This blog post goes through and explains some interesting mini-stories where I learned some fundamental concepts about networking or how operating systems work, and then finally goes over the steps I took to get to my current setup for the homelab. The ministories are in the order I discovered them, since my journey was highly non-linear and took me on a long route of learning.
 
 ## Hardware
 
@@ -25,7 +25,7 @@ HP Elitedesk G2 with an Intel I5 Processor, 8 GB RAM, 256 GB SSD
 
 ## Current Home Dashboard Layout
 
-I haven't yet put much effort into customizing my dashboard since I only just set this up, but currently it is available to me and those on my network at `homelab.corradomazzarelli.com` and it has links to my wifi router dashboard, my [Proxmox](#what-is-proxmox) dashboard, my AdGuardHome dashboard, and my Nginx Reverse Proxy Manager dashboard.
+I haven't yet put much effort into customizing my dashboard since I only just set this up, but currently it is available to me and those on my network at `homelab.corradomazzarelli.com`. It has links to my wifi router dashboard, my [Proxmox](#what-is-proxmox) dashboard, my AdGuardHome dashboard, and my Nginx Reverse Proxy Manager dashboard.
 
 ![Minimal Dashboard](https://corradomazzarelli.com/assets/blog_posts/bp.homelab/minimal_dashboard.png)
 
@@ -250,7 +250,7 @@ flowchart TD
 3. [Reactive Resume](https://docs.rxresu.me/overview/features)
 4. [Frigate](https://frigate.video/)
 
-## Ministory 1 -- Network Routing: An Educational Experience
+## Mini-Story 1 -- Network Routing: An Educational Experience
 
 I recently ran into an interesting networking situation that taught me a lot about how home networks actually work. Here's what happened:
 
@@ -296,7 +296,7 @@ However, to ensure that there were no IP conflicts, I went into the Proxmox sett
 Network addresses are more like self-declared nicknames than strictly enforced identities. While DHCP provides organization and control,
 a device can technically use any unused IP address on your network - it's just considered polite to let your router manage these assignments.
 
-## Ministory 2 -- Remote Access Solution: Tailscale
+## Mini-Story 2 -- Remote Access Solution: Tailscale
 
 When setting up remote access for my home server, I evaluated several VPN options:
 
@@ -333,7 +333,7 @@ I chose Tailscale primarily for its ease of setup and maintenance. The process w
 
 While this solution does rely on Tailscale's infrastructure, the convenience and reliability have proven worthwhile for my home lab needs.
 
-## Ministory 3 -- Router Upgrade and DNS Control
+## Mini-Story 3 -- Router Upgrade and DNS Control
 
 A significant improvement came when I replaced the default Spectrum router with a NetGear RAX20. This upgrade enabled:
 
@@ -343,7 +343,7 @@ A significant improvement came when I replaced the default Spectrum router with 
 
 The Spectrum router simply didn't provide the customization options that I needed, so I had to replace the hardware with something more capable.
 
-## Ministory 4 -- Understanding Containers vs. VMs
+## Mini-Story 4 -- Understanding Containers vs. VMs
 
 A key learning experience was understanding the difference between containers and virtual machines, particularly regarding how they interact with the kernel.
 
