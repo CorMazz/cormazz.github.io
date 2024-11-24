@@ -56,20 +56,25 @@ I chose Proxmox because it's:
 
 ## Current Setup: Docker and Services
 
-My current implementation uses Docker containers running on a VM:
+My current implementation uses Docker containers running on a VM on my HP PC that's running Proxmox:
 
-1. Network Config VM
-   1. **DNS Server**: AdGuard Home for local DNS resolution
-   2. **Reverse Proxy**: Nginx Proxy Manager for routing traffic
-   3. **SSL Certificates**: Using Let's Encrypt with DNS challenges
-2. VPN VM
-   1. Tailscale with [Split DNS Enabled](https://www.youtube.com/watch?v=Uzcs97XcxiE)
+1. HP PC Running Proxmox
+   1. Network Config VM
+      1. **DNS Server**: AdGuard Home for local DNS resolution
+      2. **Reverse Proxy**: Nginx Proxy Manager for routing traffic
+      3. **SSL Certificates**: Using Let's Encrypt with DNS challenges
+   2. VPN VM
+      1. Tailscale with [Split DNS Enabled](https://www.youtube.com/watch?v=Uzcs97XcxiE)
 
 This setup enables:
 
+* Isolation between VMs
+* Resource management of VMs
+  * I can set the RAM, storage, and CPU usage
 * Local domain name resolution
+  * I can access my services at myservice.corradomazzarelli.com
 * Secure remote access to services with local domain names
-* Clean URLs for various applications
+  * My services can be accessed even from off site via Tailscale
 
 ### Reverse Proxy and SSL Architecture Diagram
 
@@ -167,6 +172,12 @@ The following are the folders and files that I created on the VM to enable my se
 
 ```mermaid
 flowchart TD
+    %% Define styles
+    classDef root fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
+    classDef mainDir fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px,color:#000000
+    classDef subDir fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef file fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000
+
     root["./"]
     data["data/"]
     adguard["adguard/"]
@@ -203,6 +214,12 @@ flowchart TD
     data --> nginx
     nginx --> nginx_data
     nginx --> nginx_ssl
+
+    %% Apply styles
+    class root root
+    class data,adguard,homepage,nginx mainDir
+    class adguard_conf,adguard_work,homepage_config,nginx_data,nginx_ssl subDir
+    class compose1,compose2,compose3,start,stop file
 ```
 
 ## Potential Future Software
