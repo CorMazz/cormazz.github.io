@@ -17,11 +17,17 @@ This article explores my journey learning networking while creating my homelab a
 
 # Home Server Journey
 
-I decided to setup a home server to learn about networking, as well as to enable future endeavors such as testing out a Docker Swarm autograder application for the next iteration of GE's Python Bootcamp that I created. This blog post goes through and explains two interesting mini-stories where I learned some fundamental concepts about networking or how operating systems work, and then finally goes over the steps I took to get to my current setup for the homelab. The ministories are in the order I discovered them, since my journey was highly non-linear and took me on a long route of learning. 
+I decided to setup a home server to learn about networking, as well as to enable future endeavors such as testing out a Docker Swarm autograder application for the next iteration of GE's Python Bootcamp that I created. This blog post goes through and explains two interesting mini-stories where I learned some fundamental concepts about networking or how operating systems work, and then finally goes over the steps I took to get to my current setup for the homelab. The ministories are in the order I discovered them, since my journey was highly non-linear and took me on a long route of learning.
 
 ## Hardware
 
 HP Elitedesk G2 with an Intel I5 Processor, 8 GB RAM, 256 GB SSD
+
+## Current Home Dashboard Layout
+
+I haven't yet put much effort into customizing my dashboard since I only just set this up, but currently it is available to me and those on my network at `homelab.corradomazzarelli.com` and it has links to my wifi router dashboard, my [Proxmox](#what-is-proxmox) dashboard, my AdGuardHome dashboard, and my Nginx Reverse Proxy Manager dashboard.
+
+![Minimal Dashboard](https://corradomazzarelli.com/assets/blog_posts/bp.homelab/minimal_dashboard.png)
 
 ## What is Proxmox?
 
@@ -62,7 +68,8 @@ My current implementation uses Docker containers running on a VM on my HP PC tha
    1. Network Config VM
       1. **DNS Server**: AdGuard Home for local DNS resolution
       2. **Reverse Proxy**: Nginx Proxy Manager for routing traffic
-      3. **SSL Certificates**: Using Let's Encrypt with DNS challenges
+         1. **SSL Certificates**: Using Let's Encrypt with DNS challenges
+      3. **Homepage**: Homepage for a home dashboard
    2. VPN VM
       1. Tailscale with [Split DNS Enabled](https://www.youtube.com/watch?v=Uzcs97XcxiE)
       2. Advertising all routes on my network to allow remote users to access the entire network
