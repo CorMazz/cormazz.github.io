@@ -129,13 +129,13 @@ flowchart TD
     Wifi --> |"Connects to"| Router
     Ethernet --> |"Connects to"| Router
     TS --> |"Connects via Tailscale"| Router
-    Router --> |"1. DNS Query:<br>myservice.corradomazzarelli.com"| AdGuard
-    AdGuard --> |"2. Resolves to local IP"| Router
-    Router --> |"3. Forwards to"| nginx
-    nginx --> |"4. Verifies SSL"| ssl
-    nginx --> |"5. Routes traffic"| service1
-    nginx --> |"5. Routes traffic"| service2
-    nginx --> |"5. Routes traffic"| service3
+    Router --> |"1) DNS Query:<br>myservice.corradomazzarelli.com"| AdGuard
+    AdGuard --> |"2) Resolves to local IP"| Router
+    Router --> |"3) Forwards to"| nginx
+    nginx --> |"4) Verifies SSL"| ssl
+    nginx --> |"5) Routes traffic"| service1
+    nginx --> |"5) Routes traffic"| service2
+    nginx --> |"5) Routes traffic"| service3
 
     %% Apply styles
     class Wifi,Ethernet,TS device
@@ -221,7 +221,7 @@ I recently ran into an interesting networking situation that taught me a lot abo
 ### The Setup
 
 * Spectrum router (at 192.168.1.1)
-* Proxmox server connected via ethernet
+* Proxmox server connected via ethernet, set with a static IP of 192.168.1.2 in the initial setup
 * Ubuntu VM running on the Proxmox host
 
 ### The Mystery
