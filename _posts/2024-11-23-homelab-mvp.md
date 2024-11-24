@@ -129,13 +129,13 @@ flowchart TD
     Wifi --> |"Connects to"| Router
     Ethernet --> |"Connects to"| Router
     TS --> |"Connects via Tailscale"| Router
-    Router --> |"1) DNS Query:<br>myservice.corradomazzarelli.com"| AdGuard
-    AdGuard --> |"2) Resolves to local IP"| Router
-    Router --> |"3) Forwards to"| nginx
-    nginx --> |"4) Verifies SSL"| ssl
-    nginx --> |"5) Routes traffic"| service1
-    nginx --> |"5) Routes traffic"| service2
-    nginx --> |"5) Routes traffic"| service3
+    Router --> |"(1) DNS Query:<br>myservice.corradomazzarelli.com"| AdGuard
+    AdGuard --> |"(2) Resolves to local IP"| Router
+    Router --> |"(3) Forwards to"| nginx
+    nginx --> |"(4) Verifies SSL"| ssl
+    nginx --> |"(5) Routes traffic"| service1
+    nginx --> |"(5) Routes traffic"| service2
+    nginx --> |"(5) Routes traffic"| service3
 
     %% Apply styles
     class Wifi,Ethernet,TS device
