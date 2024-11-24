@@ -121,9 +121,9 @@ flowchart TD
             subgraph WS["Web Services VM"]
                 direction TB
                 nginx("Nginx Proxy Manager<br>(Traffic Director)")
-                ssl("SSL Certificates<br>(Let's Encrypt)")
+                ssl("SSL Certificates<br>(Let's Encrypt + Cloudflare)")
                 
-                subgraph Services["Web Services"]
+                subgraph Services["Web Services (Docker)"]
                     direction LR
                     service1("AdGuard Admin<br>Interface")
                     service2("Proxmox Dashboard")
@@ -159,20 +159,31 @@ flowchart TD
 
 ### Setup Instructions
 
-1. Create an Ubuntu VM on my Proxmox host with the default settings for storage, RAM, and CPU cores.
-2. Install [Docker on the Ubuntu VM](https://docs.docker.com/engine/install/ubuntu/)
-3. Create Docker Compose files for [Nginx Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup), [AdguardHome](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker#quickstart), and [Homepage](https://gethomepage.dev/installation/docker/)
+1. Install Proxmox on the server machine
+   1. Follow the default installation instructions
+   2. Set a static IP that you like for the dashboard
+2. Set a DHCP IP reservation on your router for your Proxmox host
+   1. See your router instructions for how to do this
+3. Create an Ubuntu VM on my Proxmox host with the default settings for storage, RAM, and CPU cores.
+4. Install [Docker on the Ubuntu VM](https://docs.docker.com/engine/install/ubuntu/)
+5. Create Docker Compose files for [Nginx Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup), [AdguardHome](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker#quickstart), and [Homepage](https://gethomepage.dev/installation/docker/)
    1. Optionally disable [resolved](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker#resolved) if AdguardHome isn't binding properly
    2. See [included files](#files-created) for file content used
-4. Start the services
+6. Start the services
    1. I used the [start_services.sh](#start_servicessh) script
-5. Access the AdguardHome Dashboard at `http://<ip-of-your-vm>:3000`
+7. Access the AdguardHome Dashboard at `http://<ip-of-your-vm>:3000`
    1. Set it up to listen on all interfaces at port 3000
    2. Use `ip addr show` to get the IP address of your VM
-6. Access the Nginx Proxy Manager dashboard at `http://<ip-of-your-vm>:81`
-7. Follow [these instructions](https://www.wundertech.net/local-ssl-for-home-lab-services-nginx-proxy-manager/) to set up SSL certificates and proxy hosts for your services
-   1. I already had a domain managed by Cloudflare (hint, you're on it right now), so I used that
-   2. On AdguardHome you use DNS Rewrites instead of ANAME and CNAME records like the instructions did
+8. Access the Nginx Proxy Manager dashboard at `http://<ip-of-your-vm>:81`
+   1. Follow [these instructions](https://www.wundertech.net/local-ssl-for-home-lab-services-nginx-proxy-manager/) to set up SSL certificates and proxy hosts for your services
+      1. I already had a domain managed by Cloudflare (hint, you're on it right now), so I used that
+      2. On AdguardHome you use DNS rewrites instead of ANAME and CNAME records like the instructions did
+         1. I created one DNS rewrite for each service
+9. Configure router settings
+   1. Create a DHCP IP reservation for the VM that hosts the network services
+   2. Change the router DNS IP address to the IP address of the VM hosting the network services
+      1. The router will automatically direct DNS traffic to this VM on port 53
+10. Look at [the instructions](https://gethomepage.dev/configs/) for how to setup a homepage dashboard
 
 ### Folder/File Structure
 
