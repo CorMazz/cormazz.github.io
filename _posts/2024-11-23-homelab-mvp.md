@@ -97,7 +97,7 @@ flowchart TD
     classDef service fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
 
     %% Local Access Methods
-    subgraph LAM("Local Access Methods")
+    subgraph LAM["Local Access Methods"]
         direction LR
         Wifi("WiFi Device")
         Ethernet("Ethernet Device")
@@ -105,25 +105,25 @@ flowchart TD
     end
 
     %% Home Network
-    subgraph HN("Home Network")
+    subgraph HN["Home Network"]
         Router("NetGear RAX20<br>(10.0.0.1)<br>Configured to use AdGuard as DNS")
 
         %% Proxmox Server
-        subgraph PS("Home Server - Proxmox")
+        subgraph PS["Home Server - Proxmox"]
             direction TB
             
             %% DNS VM
-            subgraph DNS("DNS VM (10.0.0.3)")
+            subgraph DNS["DNS VM (10.0.0.3)"]
                 AdGuard("AdGuard Home<br>Local DNS Server")
             end
             
             %% Web Services VM
-            subgraph WS("Web Services VM")
+            subgraph WS["Web Services VM"]
                 direction TB
                 nginx("Nginx Proxy Manager<br>(Traffic Director)")
                 ssl("SSL Certificates<br>(Let's Encrypt)")
                 
-                subgraph Services("Web Services")
+                subgraph Services["Web Services"]
                     direction LR
                     service1("AdGuard Admin<br>Interface")
                     service2("Proxmox Dashboard")
