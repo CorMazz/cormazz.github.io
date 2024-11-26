@@ -130,10 +130,6 @@ flowchart TD
                     service3("Homepage")
                 end
                 
-                nginx --> ssl
-                nginx --> service1
-                nginx --> service2
-                nginx --> service3
             end
         end
     end
@@ -145,7 +141,8 @@ flowchart TD
     Router --> |"(1) DNS Query:<br>myservice.corradomazzarelli.com"| AdGuard
     AdGuard --> |"(2) Resolves to local IP"| Router
     Router --> |"(3) Forwards to"| nginx
-    nginx --> |"(4) Verifies SSL"| ssl
+    nginx --> |"(4a) SSL Verification Request"| ssl
+    ssl --> |"(4b) SSL Verified"| nginx
     nginx --> |"(5) Routes traffic"| service1
     nginx --> |"(5) Routes traffic"| service2
     nginx --> |"(5) Routes traffic"| service3
