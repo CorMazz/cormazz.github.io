@@ -2,8 +2,8 @@
 layout: post
 title: Finding Beauty in Algorithms - From LeetCode to Engineering Applications
 subtitle: How the Minimum Edit Distance Algorithm Can Guide Engineering System Design
-thumbnail-img: /assets/blog_posts/bp.elegant_algorithms/cover_img.png
-share-img: /assets/blog_posts/bp.elegant_algorithms/cover_img.png
+thumbnail-img: /assets/blog_posts/bp.elegant_algorithms/cover_img.webp
+share-img: /assets/blog_posts/bp.elegant_algorithms/cover_img.webp
 tags: [algorithms, dynamic-programming, engineering, system-design, python]
 comments: true
 author: Corrado R. Mazzarelli
