@@ -75,3 +75,9 @@ I prompted SAM in my Google CoLab notebook to try to detect the crack in the ima
 
 The current plan is to try to use SAM's auto segment to detect the initial sample, then add a bounding box around the sample, get SAM to focus in on that, detect again, then tell SAM to ignore the crack and negate the sample mask to get the crack.
 
+## 12/7/2024
+
+I used Sreeni's image annotation tool and was able to create this cool image.
+![Annotation Tool Testing](annotation_test.png)
+
+I also submitted this issue to his GH repo. However, it looks like some functionality that I need [is not currently supported](https://github.com/bnsreenu/digitalsreeni-image-annotator/issues/19). I was able to go into the `.iap` file of the project and manually edit the masks with a little help from Claude. I can continue annotating.
