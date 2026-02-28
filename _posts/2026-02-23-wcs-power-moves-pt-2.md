@@ -54,16 +54,16 @@ This is where you as the lead come up with a plan and communicate that you have 
 
 ##### Turn Entry
 
-The turn entry is whatever pattern gets you into a position where your follow is prepared for an inside or outside-turn.
-This can be as simple as a left-side-pass (LSP), or a right-side-pass (RSP), or as complicated as a Maxence-style hustle-whip with a behind-the-back topspinner into a duck-turn.
+The turn entry is whatever pattern gets you into a position where your follow is prepared for a left or right-turn.
+This can be as simple as a `Left Side Pass` (LSP), or a `Right Side Pass` (RSP), or as complicated as a Maxence-style hustle-whip with a behind-the-back topspinner into a duck-turn.
 
 ##### The Base Turn
 
-High-level, there are two types of turns in WCS. Outside, and inside. We will be using one of these two types of turns to accelerate. This will be our base.
-Outside and inside turns can be led from either the left-side or the right-side of the follow.
-In general, it is best to have the follower on the audience side of the leader. So, if the audience is on the leader's left side, he wants to lead a either left-side inside or outside turns.
+Dancers generally refer to turns as inside turns or outside turns. This terminology gets confusing once you start modifying the patterns and changing handholds. Thus, this article will utilize `Left` and `Right` to indicate the direction of the turn. This is relative to the follow, meaning on a `Left Turn` the follower turns to her left, regardless of what handhold or where the lead is.
 
-> KISS Principle: To reduce initial leader cognitive load, while practicing stick to left-side-pass inside-turn or right-side-pass outside-turn variations with extra spins for acceleration.
+> In general, it is best to have the follower on the audience side of the leader. So, if the audience is on the leader's left side, he wants to lead a either left-side left turn or a left side right turn.
+
+> KISS Principle: To reduce initial leader cognitive load, while practicing stick to `Left Side Pass` with `Left Turn` or `Right Side Pass` with `Right Turn` variations with extra spins for acceleration.
 
 ##### The Transition to Texture
 
@@ -95,10 +95,10 @@ We are assuming measures of 8 beats each, with 4 measures constituting a phrase.
 
 1. By (3, 1), choose a texture based on the next hit coming in the song
 2. Given the texture, choose a `turn entrance -> base turn -> texture transition`
-    - Note: It is better to do turns on the side matching the audience. ie, if the audience is to your left, do turns on the leader's left side. They don't want to watch you spin her, they want to watch her spin
+    - Note: It is better to do turns on the side matching the audience. ie, if the audience is to the leader's left, do turns on that side. They don't want to watch you spin her, they want to watch her spin
 3. Give your follow the _"hey, I've got a plan"_ eyes/body language
 4. Align yourself to optimally arrive on (4, 5) _at the beginning of the turns_
-    - For instance, if doing a simple LSP with an inside-turn, you would have to begin the LSP on (4, 3), because the first two beats of a LSP are the turn preparation
+    - For instance, if doing a simple `Left Side Pass` with a `Left Turn`, you would have to begin the LSP on (4, 3), because the first two beats of a LSP are the turn preparation
       - You need to know how many beats each of your `turn entrances` takes up so that you can pad the (4, 5) arrival time
     - (4, 1) is too early to begin the turns because you turn your follow for a full 8 turns and it looks like you didn't count properly and jumped the gun on the phrase change
     - (4, 3) is still a bit much, but you can make it work if you start the turns slow and accelerate (which your follow may hate you for)
@@ -112,17 +112,23 @@ We are assuming measures of 8 beats each, with 4 measures constituting a phrase.
 
 > Recall, these are your options to get your follower prepped for the turns you're about to lead.
 
-- **Left Inside-Turn Entrances**
-  - `LSP` (2 beats)
-- **Right Outside-Turn Entrances**
-  - `RSP` (2 beats)
-  - Any `Whip` Variation into an `Outside-Turn` on 5 (4 beats)
-- **Right Inside-Turn Entrance**
-  - Any `Whip` Variation into an `Inside-Turn` on 5 (4 beats)
+- **Left-Side Left-Turn Entrances**
+  - `Left Side Pass` (2 Beats)
+  - `High-Hand Baseball Throw` (2 Beats) [Check this with a follow]
+  - `Telemark` (6 Beats)
+  - `Sugar Tuck` with `Leader's Right Turn` into a `Rock & Go` (6 Beats)
+- **Right-Side Right-Turn Entrances**
+  - `Right Side Pass` (2 Beats)
+  - *Any `Whip` Variation into an `Right-Turn` on 5 (4 Beats)  [Check the timing on this with a follow]
+- **Right-Side Left-Turn Entrance**
+  - `Right Side Pass` (2 Beats)
+  - *Any `Whip` Variation into an `Left-Turn` on 5 (4 Beats) [Check the timing on this with a follow]
 
-> Note: `Whip` variations generally switch the side the follow was on before starting the turns. For instance, if the leader starts a standard `Whip` into a `Right Inside-Turn` with the audience on his left, the follow will end up on the leader's right with the audience also to his right, as desired.
+> Note: `Whip` variations generally switch the side the follow was on before starting the turns. For instance, if the leader starts a standard `Whip` into a `Right-Side Left-Turn` with the audience on his left, the follow will end up on the leader's right with the audience also to his right, as desired.
 
 > This list is currently underpopulated since I am sticking with easy LSP and RSP variations to begin with and this was just off the dome without much thought. I'll have to brainstorm more entrances.
+
+> I don't think I've ever led a **Left-Side Right-Turn**. Maybe I should try that.
 
 ### Transition Options
 
@@ -130,44 +136,102 @@ We are assuming measures of 8 beats each, with 4 measures constituting a phrase.
 
 #### Dynamic Stillness
 
-- **Left Inside-Turn Endings**
+- **Left-Side Left-Turn Endings**
   - `Duck Turn` into `Dip`
   - `Send Out` into `Follower Hook-Unwind Turn Styling`
-  - `Handshake Hold Topspinner` into `Dip` with `Monkey Bar`
-- **Right Outside-Turn Endings**
+  - `Handshake Hold Topspinner` into `Dip` (`Monkey Bar` Styling Optional)
+- **Right-Side Right-Turn Endings**
   - `Handshake Hold Duck-Turn` into `Under-Arm Dip`
-- **Right Inside-Turn Endings**
+- **Right-Side Left-Turn Endings**
   - `Duck` into `Facing-Each-Other Side-by-Side`
 
 #### Slow Continuous
 
-- **Left Inside-Turn Endings**
+- **Left-Side Left-Turn Endings**
   - `Handshake Hold Leader's Drape` to `Backward Walks` (Moonwalk Styling Option)
   - `Send Out` into `Follower Hook-Unwind Turn Styling`
   - `Handshake Hold Topspinner` into `Dip` with `Monkey Bar`
   - `Handshake Hold Topspinner` into `Circular Walks`
   - Directly to `Crowd Charge` (can style with `Leader's Drape` if in `Handshake Hold`)
-- **Right Outside-Turn Endings**
+- **Right-Side Right-Turn Endings**
   - `Handshake Hold Duck-Turn` into `Under-Arm Dip`
   - `Handshake Hold Duck-Turn` into `Ride`
   - `Leader's Right Arm to Follower's Right Armpit Connection` into `Circular Walks`
   - `Leader's Right Arm to Follower's Right Armpit Connection` into `Reverse Monkey Bar` into `Ride`
   - Directly to `Crowd Charge` (can style with `Leader's Drape` if in `Handshake Hold`)
-- **Right Inside-Turn Endings**
+- **Right-Side Left-Turn Endings**
   - `Duck` into `Facing-Each-Other Side-by-Side`
 
 #### Fast Continuous
 
-- **Left Inside-Turn Endings**
+- **Left-Side Left-Turn Endings**
   - `Handshake Hold Leader's Drape` to `Backward Walks` (Moonwalk Styling Option)
   - `Handshake Hold Topspinner` into `Circular Walks`
   - Directly to `Crowd Charge`
-- **Right Outside-Turn Endings**
+- **Right-Side Right-Turn Endings**
   - Directly to `Swivels`
   - `Leader's Right Arm to Follower's Right Armpit Connection` into `Circular Walks`
   - Directly to `Crowd Charge` (can style with `Leader's Drape` if in `Handshake Hold`)
-- **Right Inside-Turn Endings**
+- **Right-Side Left-Turn Endings**
   - `Duck` into `Facing-Each-Other Side-by-Side`
+
+### Examples
+
+#### Example 1 -- Simple Entry
+
+You just anchored and are about to start a fresh pattern on (3, 3). The audience is currently to your right. Based on the music, it seems like a dynamic stillness
+style hit should come next.
+
+##### Planning
+
+- You decide you want a simple, 2-beat, `Left Side Pass` entry, with a `Left-Side Left-Turn` base turn, and a `Duck-Turn` into `Dip` transition
+- A 2-beat entry means you need to be ready to go by (4, 3), and the `Left` variations require the audience to be on your left. The audience is currently on your right
+- Thus, you have 8 beats to get turned around
+- What you need is essentially a standard 6-count pass with a 2-beat extension, since 8-count `Whip` variations don't turn you around
+- A standard `Left Side Pass` with a `Telemark` would work well here, but the audience is on your right and you'd be blocking the view of the follow
+    - I am unsure if champion level leads take blocking the follow into account when it is NOT the phrase change
+    - Another option is an `Under-Arm Pass` with a 2-beat stall in the middle. This won't block the view of the follow
+
+##### Execution
+
+- Give your follow the _"hey, I've got a plan"_ look so that she knows you two are on the way to hitting something
+- Completing the 8-beats `Telemark`, which brings you to (4, 3) with the audience on your left
+- On (4, 3), lead your pre-determined 2-beat entry
+- On (4, 5), start your acceleration into your `Double Left-Turn`
+- Somewhere around (4, 7) or (4, 8) lead the transition
+- On (5, 1), hit the final `Dip` and texture with dynamic stillness.
+
+#### Example 2 -- Advanced Entry
+
+The scenario is the same as [Example 1](#Example 1 -- Simple Entry), but we want a more advanced entry than a 2-beat `Left Side Pass`.
+
+##### Planning
+
+- We know we want the `Left-Side Left-Turn` with a `Duck-Turn` into `Dip`
+    - You cannot use a `Whip` variation to enter this. Whips are fundamentally `Right` type patterns.
+    - You can use a 6-count `Sugar Tuck` with a `Leader's Right Turn` into a `Rock & Go`
+- A 6-beat entry means you need to be ready to go by (3, 7), and the `Left` variations require the audience to be on your left. The audience is currently on your right, and your entry does not turn you around
+- Thus, you have 4 beats to get turned around
+- What you need is essentially a standard 6-count pass with a 2-beat reduction, (ie. a `Rock & Go`) 
+    -  A `Rock & Go` is not ideal, because follows generally do not like being thrown from a `Rock & Go` into a `Sugar Tuck` variation, but tough luck this time.
+    - Another option is to just do a 4-beat pass with all walks
+- We can do a `Right Side Pass` with the `Rock & Go` into our entry
+
+##### Execution
+
+- Give your follow the _"hey, I've got a plan"_ look so that she knows you two are on the way to hitting something
+- Complete your 4-beat `Right Side Pass` + `Rock & Go` to align yourself
+- On (3, 7), you are in the midst of your `Rock & Go`, which is the start of your `Sugar Tuck` variation
+- On (4, 1), you are in the midst of your `Sugar Tuck` entry
+- On (4, 3), you are starting the last two beats of your `Sugar Tuck` entry
+- On (4, 5), start your acceleration into your `Double Left-Turn`, and switch hands mid-turn, since your entry put you into handshake hold
+- Somewhere around (4, 7) or (4, 8) lead the transition
+- On (5, 1), hit the final `Dip` and texture with dynamic stillness.
+
+### Cory's Favorite Patterns
+
+- `Hustle Whip` entry into `Leader's Right-Hand to Follower's Left-Hand Right-Side Right-Turns` with a `Duck-Turn` into `Dip` transition
+  - Start this on (4, 1) with the audience on your left-side
 
 ## Minor Ones
 
@@ -175,6 +239,3 @@ Easy patterns to acknowledge the minor 1 and display your follow to the audience
 
 `todo!()`
 
-### Future Pattern Additions
-
-`todo!()`
